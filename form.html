@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form tag</title>
+</head>
+<body>
+<h2>Registion form</h2>
+<form action= "#">
+  <fieldset>
+    <legend>User information</legend>
+    First Name <br><input type ="text" name="username" required/><br><br>
+    Last Name<br> <input type="text" name= "lastname" required/><br><br>
+
+    <label>Email<br></label><input type="email" required><br>
+    <label>password<br></label><input type="password"  minLength= '8' pattern = "(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></label><br><br>
+
+    <label>Contact Number<br><input type="number" pattern="[8-9]{1}[0-9]{8}" required></label><br><br>
+    <label>Enter your address<br><textarea rows="2" cols="20"></textarea>
+    </label><br><br>
+
+
+    <label>Age<br></label><input type="number" min="1" max="100"><br>
+
+     <b>Gender</b><br>
+    <input type="radio" name="rd1">Male
+    <input type="radio" name="rd1">Femal
+    <input type="radio" name="rd1">Other<br><br>
+
+    <label></label><b>choose languages:</b><br>
+    <input type="checkbox" name="languages">c
+    <input type="checkbox" name="languages">c++
+    <input type="checkbox" name="languages">java
+    <input type="checkbox" name="languages">python
+    <input type="checkbox" name="languages">Django</label> <br><br>
+
+    <label><b>Designation</b><br>
+    <select>
+        <option>Developer</option>
+        <option>Data anylatic</option>
+        <option>animation</option>
+    </select> </label> <br><br>
+
+    <label><b>Designation1</b><br>
+    <select multiple>
+        <option>Developer</option>
+        <option>Data anylatic</option>
+        <option>animation</option>
+    </select></label><br><br>
+
+    <input type="date"> <br><br>
+    <input type="datetime-local" name="time"> <br><br>
+    <input type="color"> <br><br>
+
+    <button type="submit"> Register </button>
+    <button type="reset"> Reset </button>
+  </fieldset>
+</form>
+
+</body>
+</html>
