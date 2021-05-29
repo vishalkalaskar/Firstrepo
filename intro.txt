@@ -3,3 +3,4 @@ do your change in main
 then commit it
 go to branch option
 at file anme purpose file
+crating newe branch usign main fiel and edit it and creating new brance as thrid branch
